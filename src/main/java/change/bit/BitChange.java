@@ -22,9 +22,10 @@ public class BitChange {
     public static void main(String[] args) {
         boolean t = true;
         System.out.println(Integer.toString(changeOne(6,0, 2_147_483_647),2));
-//        changeOne(4,9);
+
         int a = 127;
-//        b = (byte) (b & ~(1 << 5));
+        System.out.println("COMMIT");
+
         System.out.println(Integer.toString(a,2));
         System.out.println( Integer.toString(a & ~(1 << 3),2));
         byte b = 15;
@@ -32,8 +33,7 @@ public class BitChange {
 
         System.out.println("10:  " + Integer.toString(10,2));
         System.out.println("~ 10:" + Integer.toString(~10,2));
-//        int c = 10 & ~(1<<);
-//        System.out.println(Integer.toString(c,2));
+
         System.out.println("14:" + Integer.toString(14,2));
 
         System.out.println("dfghjkl");
